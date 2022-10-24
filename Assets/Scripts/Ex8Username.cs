@@ -28,7 +28,7 @@ public class Ex8Username : MonoBehaviour
 
         if(username == "" || string.IsNullOrWhiteSpace(username)) //if we didn't fill the inputfield or we only have written blank spaces
         {
-            adviceText.gameObject.SetActive(true); //A warning message appears remembering to the user to fill the inputField to confirm.
+            adviceText.gameObject.SetActive(true); //A warning message appears remembering the user to fill the inputField to confirm.
         }
         else
         {  
